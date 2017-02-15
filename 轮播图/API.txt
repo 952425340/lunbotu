@@ -1,0 +1,22 @@
+
+// 详细 API:
+
+html布局
+		<div class="slide zy-slide">
+			<section class="zy-prev">前一张</section>
+			<section class="zy-next">后一张</section>
+			<ul>
+				<li><img src="images/1.jpg" alt="轮播图片" /></li>
+				<li><img src="images/2.jpg" alt="轮播图片" /></li>
+				<li><img src="images/3.jpg" alt="轮播图片" /></li>
+				<li><img src="images/4.jpg" alt="轮播图片" /></li>
+				<li><img src="images/5.jpg" alt="轮播图片" /></li>
+				<li><img src="images/6.jpg" alt="轮播图片" /></li>
+				<li><img src="images/7.jpg" alt="轮播图片" /></li>
+			</ul>
+		</div>
+JS代码
+可设置两个参数
+参数1:delay  设置动画的时间
+参数2:speed  控制切换轮播的时间 
+$('.zy-slide').zySlide({delay:1000,speed:2000})
